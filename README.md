@@ -1,4 +1,4 @@
-I've joined the #100DaysOfCode Challenge
+# **I've joined the #100DaysOfCode Challenge**
 
 Welcome to my journey of solving the top 100 easy Data Structure and Algorithms (DSA) Problems! This repository is a collection of my solutions and insights as i work through popular problems to strengthen my foundational DSA Skills.
 
