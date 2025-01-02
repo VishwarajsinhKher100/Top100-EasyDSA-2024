@@ -23,4 +23,4 @@ After completing the loop, reversed_arr holds the reverse Value.
 # Time and Space Complexity
 
 Time Complexity : O(n)<br>
-Space Complexity : O(1)
+Space Complexity : O(n)
