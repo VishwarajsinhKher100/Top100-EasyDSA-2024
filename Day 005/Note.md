@@ -1,25 +1,26 @@
-The program employs a single traversal approach to remove duplicated values from array.
+The program employs the rotation of array by one positon left.
 
 # ALGORITHM STEP:-
 
 ### Step 1 Initialization:
 
-sorted_arr which contain list of value in sorted manner.
+array which contain list of value.
 
-### Step 2 remove duplicated function:
+### Step 2 Array Rotation function:
 
-define remove_duplicated function:
-&nbsp;&nbsp;&nbsp;initializes empty "unique_arr" array.<br>
-&nbsp;&nbsp;&nbsp;For each element in the array:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if unique_arr is empty or current number is not equal to last element of unique_arr:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then add number to unique_arr.<br>
-&nbsp;&nbsp;&nbsp;return unique_arr.
+define RotateLeftByOne function:<br>
+&nbsp;&nbsp;&nbsp;Check if array is empty.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return array.<br>
+&nbsp;&nbsp;&nbsp;Otherwise:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remove fisrt element from array which store in "FirstElement" Variable.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After this FirstElement contain append to Array using append().<br>
+&nbsp;&nbsp;&nbsp;return array.
 
 ### Step 3 Result:
 
-After completing the loop, function return unique elements.
+This operation output store in "RotatedArray".
 
 # Time and Space Complexity
 
 Time Complexity : O(n)<br>
-Space Complexity : O(n) 
+Space Complexity : O(1) 
